@@ -24,5 +24,19 @@ let booleanIsLoggedIn = Boolean(isLoggedIn);
 
 let scoreNuumber = 33;
 let stringNumber = String(scoreNuumber);
-console.log(stringNumber);
-console.log( typeof stringNumber);
+//console.log(stringNumber);
+//console.log( typeof stringNumber);
+
+
+//*******************  Operations    ***************** */
+
+let v = 3;
+let negV = -v;
+//console.log(negV);
+
+//console.log("1"+2);
+//console.log(1+"2");
+console.log("1"+2+2);
+console.log(1+2+"2");
+console.log(1+"2"+2);
+console.log( (3 + 4) * 5 % 3);
