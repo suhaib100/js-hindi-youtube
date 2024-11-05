@@ -55,4 +55,9 @@ const  fun = function(){
 }
 
 fun();
-// console.log(fun);
+// console.log(fun);  
+
+
+
+
+// stack (primitives) , Heap(non primitives)
