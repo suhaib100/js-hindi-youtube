@@ -42,8 +42,21 @@ const arrObj = [
     }
 ]
 // console.log(arrObj);
-console.log( arrObj[2].name);
-// console.log(n);
-console.log(Object.keys(n));
-console.log(Object.values(n));
-console.log(Object.entries(n));
+// console.log( arrObj[2].name);
+// // console.log(n);
+// console.log(Object.keys(n));
+// console.log(Object.values(n));
+// console.log(Object.entries(n));
+
+
+
+const course = {
+    courseName : "js in hindi",
+    price : "999",
+    courseInstructor : "suhaib"
+
+}
+
+const {courseInstructor : instruuctor} = course;
+// console.log(courseInstructor);
+console.log(instruuctor);
